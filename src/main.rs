@@ -109,7 +109,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 /// Example of building an index from the scraped data and querying it
 ///
 /// From my benchmarks, most queries take less than 2ms to complete with an index of around 10 million posts
-fn build_index() {
+fn _build_index() {
     let index = Index::generate("posts.json", "tags.json").expect("Failed to generate index");
 
     let query = vec![String::from("cat"), String::from("dog")];
