@@ -1,4 +1,4 @@
-s# Scraper and Indexer
+# Scraper and Indexer
 
 A Rust-based tool for scraping tags and posts from an API, saving the data to JSON files, and building an optimized index for fast querying.
 
